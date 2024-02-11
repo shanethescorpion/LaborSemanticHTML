@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #F9F7C9;
+}
+header {
+    background-color: peachpuff;
+    padding: 0.2rem;
+    text-align: center;
+}
+hr.new {
+    border: 2px solid rgb(21, 18, 18);
+}
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    color:black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    color:black;
+}
+main {
+    padding: 3rem;
+    display: grid;
+}
+figcaption{
+    color: white;
+}
+article{
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #3C3633;
+}
+hr.article{
+    border: 1px solid black;
+    margin: 1.5rem auto;
+    width: 100%;
+}
+article h2 {
+    margin-bottom: 1rem;
+    color: white;
+}
+article figure {
+    text-align: center;
+}
+article figure img {
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+article p{
+    margin-bottom: 1rem;
+    color: white;
+}
+hr.new1 {
+    border: 2px solid rgb(21, 18, 18);
+}
+footer {
+    background-color: peachpuff;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
